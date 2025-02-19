@@ -29,3 +29,14 @@ Sweetella/
 - **JavaScript** – Enhancing interactivity.
 - **Google Fonts** – Beautiful typography.
 - **Font Awesome** – Icons for social links.
+
+## 🚀 Installation & Usage
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/sweetella.git
+   ```
+2. **Navigate to the project folder**:
+   ```bash
+   cd sweetella
+   ```
+3. **Open `index.html` in your browser**.
