@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweetella Cake Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images\favicon.png">
+
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                
+                <img src="images\favicon.png" class="logo-icon"  alt="">
+                <h2 class="logo-text">Sweetella </h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"> </button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"> </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+         <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Your Cake, Your Moment</h2>
+                    <h3 class="subtitle">
+                        Make your day sweeter with our special cakes!
+                    </h3>
+                    <p class="description">Celebrate with our decadent, freshly baked creations </p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="tel:+94 456-87906" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images\main-hero.png" alt="" class="hero-image">
+                </div>
+            </div>
+
+         </section>
+
+            <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images\hero-img2.png" alt="About Image" class="about-image">    
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Sweetella, we create cakes that bring joy and sweetness to every occasion. Our cakes are made with the finest ingredients, ensuring the perfect balance of flavor and texture. Whether you're celebrating a special moment or just treating yourself, Sweetella promises a delightful experience in every bite. </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                        
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images\chocolate-cake.png" alt="Chocolate Cake with Cherries" class="menu-image">
+                        <h3 class="name">Cherry Chocolate Bliss</h3>
+                        <p class="text">A rich chocolate cake topped with cherries for a sweet, indulgent treat. </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images\Pink Chocolate Gâteau Cake.png" alt="Pink Chocolate Gâteau Cake" class="menu-image">
+                        <h3 class="name">Pink Chocolate Gâteau</h3>
+                        <p class="text">A delicious chocolate cake topped with creamy pink frosting for a sweet and colorful treat. </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images\Purple Oreo Bliss.png" alt="Purple Oreo Bliss" class="menu-image">
+                        <h3 class="name">Purple Oreo Bliss</h3>
+                        <p class="text">Creamy cake with purple drizzle, Oreo toppings, and a touch of elegance. </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images\heartshaped-chocolate-drizzled-cake.png" alt="Chocolate Heart Delight" class="menu-image">
+                        <h3 class="name">Chocolate Heart Delight</h3>
+                        <p class="text">Heart-shaped chocolate cake with pink frosting, chocolate drizzle, and crunchy toppings. </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images\Decorated Cupcakes.png" alt="Rainbow Sprinkle Vanilla Cupcake" class="menu-image">
+                        <h3 class="name">Rainbow Cupcake</h3>
+                        <p class="text">A light and fluffy  cupcake topped with colorful rainbow sprinkles for a fun and sweet treat. </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images\strawberry-cheesecake-.png" alt="Strawberry-cheesecake" class="menu-image">
+                        <h3 class="name">Strawberry Cheesecake</h3>
+                        <p class="text">A creamy cheesecake topped with fresh strawberries for a sweet, tangy treat.</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+        <!-- Testimonials Section -->
+         <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="https://img.freepik.com/free-photo/cheerful-indian-man_1098-18167.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="User" class="user-image">
+                                <h3 class="name">Dilan Fernando</h3>
+                                <i class="feedback">"I ordered a customized birthday cake, and it was beyond my expectations. The detailing was perfect, and the taste was simply amazing. " </i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://img.freepik.com/free-photo/woman-trendy-summer-sundress_158538-16608.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="User" class="user-image">
+                                <h3 class="name">Sanduni Jayawardena</h3>
+                                <i class="feedback">"The team at Swettella is so friendly and accommodating. They helped me choose the perfect cake for my anniversary" </i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://img.freepik.com/free-photo/stylish-indian-man-with-bindi-forehead-glasses-wear-suit-posed-outdoor_627829-1723.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="User" class="user-image">
+                                <h3 class="name">Kevin Gewon</h3>
+                                <i class="feedback">"I recently tried their chocolate fudge cake, and it was pure bliss. The perfect balance of sweetness and softness made it one of the best cakes I’ve ever had." </i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://img.freepik.com/free-photo/beautiful-woman-purple-sweater-skirt_1303-17488.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="User" class="user-image">
+                                <h3 class="name">Dinuki Wijesinghe</h3>
+                                <i class="feedback">"From cupcakes to wedding cakes, Swettella never disappoints. Their cakes are moist, fresh, and packed with flavor"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="https://img.freepik.com/free-photo/woman-with-floral-shirt-medium-shot_23-2148286112.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="User" class="user-image">
+                                <h3 class="name">Jenifer Silva</h3>
+                                <i class="feedback">"If you're looking for a beautifully designed cake with amazing taste, this is the place" </i>
+                            </li>
+                        </ul>
+                        <div class=" swiper-pagination"></div>
+                        
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <!-- gallery Section -->
+         <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/view-various-assortment-cakes-stand-bakery_181624-61697.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/crop-person-holding-cake_23-2147787022.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/view-delicious-sweet-cupcake-desserts-with-frosting_23-2150679642.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/groom-bride-hold-knife-while-they-cut-wedding-cake_8353-50.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/ai-generated-cake-picture_23-2150649268.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://img.freepik.com/free-photo/close-up-photo-cakes-girls-party_176420-6172.jpg?uid=R141612870&ga=GA1.1.1511053252.1700993270&semt=ais_hybrid" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <!-- contact section -->
+          <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>No 404, Main Road, Ratnapura</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@sweetella.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+94) 456-87906</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Saturday : 9:00AM - 5:00PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday : Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.sweetella.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message"  class="form-input" required>   
+                    </textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+          </section>
+
+          <!-- footer section -->
+           <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Sweetella </p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    
+                </div>
+
+                <p class="policy-text">
+                <a href="#" class="policy-link">Privacy policy</a>
+                <!-- <span class="separator"></span>
+                <a href="#" class="policy-link">Privacy policy</a></p> -->
+            </div>
+           </footer>
+    </main>
+    
+    <!-- linking script for swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- linking custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
